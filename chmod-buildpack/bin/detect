@@ -1,0 +1,5 @@
+#!/usr/bin/env bash
+set -eo pipefail
+
+# LIST CONTENTS
+echo "Chmod buildpack is activated!"

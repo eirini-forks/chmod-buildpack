@@ -1,0 +1,12 @@
+# Buildpack API version
+api = "0.7"
+
+# Buildpack ID and metadata
+[buildpack]
+id = "anthonydahanne/chmod"
+version = "0.0.1"
+name = "Chmod Buildpack"
+
+# Stacks that the buildpack will work with: any
+[[stacks]]
+id = "*"

@@ -1,0 +1,13 @@
+[project]
+id = "io.buildpacks.experiment"
+name = "Chmod experiment"
+version = "1.0.0"
+
+[build]
+exclude = [
+    "README.md",
+    "chmod-buildpack"
+]
+
+[[build.buildpacks]]
+uri = "chmod-buildpack/"

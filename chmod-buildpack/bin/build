@@ -1,0 +1,15 @@
+#!/usr/bin/env bash
+set -eo pipefail
+
+echo "---> Chmod buildpack"
+
+# LIST CONTENTS
+echo "Before"
+ls -al
+echo "Updating rights for activemq"
+set -x
+chmod -R 775 ./
+chmod -R 755 **/bin/**
+set +x
+echo "After"
+ls -al
