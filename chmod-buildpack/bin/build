@@ -6,10 +6,9 @@ echo "---> Chmod buildpack"
 # LIST CONTENTS
 echo "Before"
 ls -al
-echo "Updating rights for activemq"
+echo "Updating permissions for the Rails tmp directory"
 set -x
-chmod -R 775 ./
-chmod -R 755 **/bin/**
+chmod -R 775 ./tmp
 set +x
 echo "After"
 ls -al

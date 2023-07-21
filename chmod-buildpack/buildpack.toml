@@ -3,7 +3,7 @@ api = "0.7"
 
 # Buildpack ID and metadata
 [buildpack]
-id = "anthonydahanne/chmod"
+id = "korifi/chmod"
 version = "0.0.1"
 name = "Chmod Buildpack"
 
